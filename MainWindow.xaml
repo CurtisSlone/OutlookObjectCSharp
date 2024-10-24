@@ -1,0 +1,19 @@
+<Window x:Class="Outlook.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="RFI Tool" Height="800" Width="500">
+    <Grid>
+        <StackPanel Margin="10">
+            <Label Content="Name:" />
+            <TextBox Name="NameTextBox" />
+
+            <Label Content="Number:" />
+            <TextBox Name="NumberTextBox" />
+
+            <Label Content="Request:" />
+            <TextBox Name="RequestTextBox" Height="400"/>
+
+            <Button Content="Submit" Click="SubmitButton_Click" Margin="10,10,0,0" />
+        </StackPanel>
+    </Grid>
+</Window>

@@ -1,0 +1,9 @@
+C:\Users\cdsl\Desktop\Programming\csharp\Outlook\obj\x64\Release\OutlookApplication.csprojResolveAssemblyReference.cache
+C:\Users\cdsl\Desktop\Programming\csharp\Outlook\obj\x64\Release\App.baml
+C:\Users\cdsl\Desktop\Programming\csharp\Outlook\obj\x64\Release\MainWindow.baml
+C:\Users\cdsl\Desktop\Programming\csharp\Outlook\obj\x64\Release\App.g.cs
+C:\Users\cdsl\Desktop\Programming\csharp\Outlook\obj\x64\Release\MainWindow.g.cs
+C:\Users\cdsl\Desktop\Programming\csharp\Outlook\obj\x64\Release\OutlookApplication_MarkupCompile.cache
+C:\Users\cdsl\Desktop\Programming\csharp\Outlook\obj\x64\Release\OutlookApplication.g.resources
+C:\Users\cdsl\Desktop\Programming\csharp\Outlook\obj\x64\Release\OutlookApplication.exe
+C:\Users\cdsl\Desktop\Programming\csharp\Outlook\OutlookApplication.exe

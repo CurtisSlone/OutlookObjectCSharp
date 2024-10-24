@@ -1,0 +1,49 @@
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+      <OutputType>WinExe</OutputType>
+      <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+      <UseWPF>true</UseWPF>
+      <ApplicationIcon>rfi.ico</ApplicationIcon>
+    </PropertyGroup>
+  
+    <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+        <OutputPath>bin\Release\x64\</OutputPath> <!-- Define the output path for Release|x86 -->
+        <PlatformTarget>x64</PlatformTarget>
+        <Optimize>true</Optimize>
+      </PropertyGroup>
+
+    <ItemGroup>
+      <!-- Required WPF references -->
+      <Reference Include="WindowsBase">
+        <HintPath>$(NET)\WPF\WindowsBase.dll</HintPath>
+      </Reference>
+      <Reference Include="PresentationCore">
+        <HintPath>$(NET)\WPF\PresentationCore.dll</HintPath>
+      </Reference>
+      <Reference Include="PresentationFramework">
+        <HintPath>$(NET)\WPF\PresentationFramework.dll</HintPath>
+      </Reference>
+  
+      <!-- Missing references -->
+      <Reference Include="System">
+        <HintPath>$(NET)\System.dll</HintPath>
+      </Reference>
+      <Reference Include="System.Xaml">
+        <HintPath>$(NET)\WPF\System.Xaml.dll</HintPath>
+      </Reference>
+      <Reference Include="System.CodeDom">
+        <HintPath>$(NET)\System.CodeDom.dll</HintPath>
+      </Reference>
+      <Reference Include="System.ComponentModel" />
+    </ItemGroup>
+  
+    <ItemGroup>
+      <Compile Include="App.xaml.cs" />
+      <Page Include="App.xaml" />
+      <Compile Include="MainWindow.xaml.cs" />
+      <Page Include="MainWindow.xaml" />
+    </ItemGroup>
+  
+    <Import Project="$(Net)\Microsoft.CSharp.targets" />
+  </Project>
+  
