@@ -1,0 +1,20 @@
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+      <OutputType>Exe</OutputType>
+      <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    </PropertyGroup>
+  
+    <ItemGroup>
+      <COMReference Include="Outlook">
+        <Guid>{00062FFF-0000-0000-C000-000000000046}</Guid>
+        <VersionMajor>9</VersionMajor>
+        <VersionMinor>4</VersionMinor>
+        <Lcid>0</Lcid>
+        <WrapperTool>tlbimp</WrapperTool>
+        <Isolated>false</Isolated>
+      </COMReference>
+    </ItemGroup>
+  
+    <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  </Project>
+  
